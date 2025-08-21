@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">VoiceTextKeyboard</string>
+    <string name="hold_to_speak">Hold to Speak</string>
+    <string name="recording">Recording..</string>
+    <string name="processing">Processing..</string>
+    <string name="analyzing">Analyzing..</string>
 </resources>

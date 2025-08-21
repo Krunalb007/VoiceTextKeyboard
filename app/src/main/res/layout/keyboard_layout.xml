@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="26dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/teal_200">
+
+    <Button
+        android:layout_gravity="center"
+        android:paddingHorizontal="14dp"
+        android:contentDescription="@string/hold_to_speak"
+        android:background="@color/purple_500"
+        android:text="@string/hold_to_speak"
+        android:textColor="@color/white"
+        android:id="@+id/voice_input_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.cardview.widget.CardView>
