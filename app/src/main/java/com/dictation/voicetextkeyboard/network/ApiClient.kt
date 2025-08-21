@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
     private const val BASE_URL = "https://api.groq.com/openai/v1/"
-    private const val WHISPER_API_KEY = "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"//"YOUR_API_KEY_HERE"
+    private const val WHISPER_API_KEY = "YOUR_API_KEY_HERE"
 
     private val apiKeyInterceptor = Interceptor { chain ->
         val originalRequest = chain.request()
